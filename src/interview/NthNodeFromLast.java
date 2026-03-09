@@ -1,5 +1,8 @@
 package interview;
 
+import util.LinkedListUtil;
+import util.ListNode;
+
 public class NthNodeFromLast {
     public static void main(String[] args) {
         ListNode listNodes = LinkedListUtil.getListNodes();

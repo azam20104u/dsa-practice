@@ -1,4 +1,4 @@
-package interview;
+package util;
 
 public class LinkedListUtil {
     public static ListNode getListNodes(){
@@ -20,8 +20,9 @@ public class LinkedListUtil {
     }
     public static void printListNodes(ListNode node){
         while (node!=null){
-            System.out.println(node.data);
+            System.out.print(node.data+"->");
             node=node.next;
         }
+        System.out.println();
     }
 }

@@ -1,4 +1,4 @@
-package interview;
+package util;
 
 public class ListNode {
     public int data;

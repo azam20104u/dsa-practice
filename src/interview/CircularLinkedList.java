@@ -1,5 +1,8 @@
 package interview;
 
+import util.LinkedListUtil;
+import util.ListNode;
+
 public class CircularLinkedList {
     public static void main(String[] args) {
         ListNode circularListNodes = LinkedListUtil.getCircularListNodes();
