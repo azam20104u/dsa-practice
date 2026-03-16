@@ -17,7 +17,8 @@ public class ServiveOrElected {
                 {100, 2, 73},
                 {5, 3, 4},
                 {6, 4, 5},
-                {1000, 5, 763}
+                {1000, 5, 763},
+                {14,2,13}
         };
 
         for (int[] testCase : testCases) {
