@@ -1,7 +1,6 @@
-package gs;
+package gs.fourtyQuestions;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class PrefixMatching {
     static ArrayList<Integer> prefixMatch (String st, String m){

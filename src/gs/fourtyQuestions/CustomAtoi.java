@@ -1,4 +1,4 @@
-package gs;
+package gs.fourtyQuestions;
 
 public class CustomAtoi {
     public static int customAtoi(String s) {

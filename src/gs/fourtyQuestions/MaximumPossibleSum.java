@@ -1,4 +1,4 @@
-package gs;
+package gs.fourtyQuestions;
 
 public class MaximumPossibleSum {
     static int maxSum(int[] arr, int k){
