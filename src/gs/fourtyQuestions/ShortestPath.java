@@ -1,9 +1,13 @@
+/*
 package gs.fourtyQuestions;
+*/
 /**
  * Implement def shortestPath(self, fromStationName, toStationName)
  * method to find shortest path between 2 stations
- */
+ *//*
 
+
+*/
 /*
  *      Visual representation of the Train map used
  *
@@ -16,21 +20,24 @@ package gs.fourtyQuestions;
  *      |                                                 /
  *      |                                                /
  *      1Holborn --- 2Chancery Lane --- 3St Paul's --- 4Bank
- */
+ *//*
+
 
 import javafx.util.Pair;
 
 import java.util.*;
 
 public class ShortestPath {
-    /**
+    */
+/**
      * class Station
      * <p>
      * Respresents Station in the rail network. Each station is identified by
      * unique name. Station is connected with other stations - this information
      * is stored in the 'neighbours' field. Two station objects with the same name are
      * equal therefore they are considered to be same station.
-     */
+     *//*
+
     private static class Station {
         private String name;
         private List<Station> neighbours;
@@ -63,14 +70,16 @@ public class ShortestPath {
         }
     }
 
-    /**
+    */
+/**
      * class TrainMap
      * <p>
      * Respresents whole rail network - consists of number of the Station objects.
      * Stations in the map are bi-directionally connected. Distance between any 2 stations
      * is of same constant distance unit. This implies that shortest distance between any
      * 2 stations depends only on number of stations in between
-     */
+     *//*
+
     private static class TrainMap {
 
         private HashMap<String, Station> stations;
@@ -165,3 +174,4 @@ public class ShortestPath {
         }
     }
 }
+*/
